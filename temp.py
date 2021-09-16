@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import pandas as pd
 import plotly.io as pio
-#pio.renderers.default = 'svg'
+
 pio.renderers.default = 'browser'
 
 dataset = pd.read_csv('C:\\Users\ASUS\Downloads\stock_list.csv')
